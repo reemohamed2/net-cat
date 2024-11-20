@@ -1,0 +1,16 @@
+please run the command : sh buileder.sh
+to builed the TCPChat
+
+
+to get the ip address of the host, run the command : "ipconfig" in the terminal and search for : 
+"IPv4 Address. . . . . . . . . . . : 10.1.204.249"
+
+10.1.204.249 is the ip in this case 
+
+to connect to the server in the same computer use :
+
+nc localhost $portnumber
+
+to connect to the server in a different computer use :
+
+nc $ipaddress $portnumber
